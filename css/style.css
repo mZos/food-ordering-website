@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+}
+
+#content{
+    height: 100vh;
+}
+
+.top-content{
+    padding: 5vh;
+    color: #6c757d;
+}
+
+.phone a{
+
+    text-decoration: none;
+    color: #6c757d;
+    
+}
+.phone a:hover{
+    color: #495057;
+}
+#nav-top{
+    height: 100px;
+    font-size: 0.8rem;
+}
+
+.bg-white{
+    background-color: #ffffff;
+}
+
+.navbar-brand{
+    font-size: 3rem;
+    font-family: 'Pacifico', cursive;
+}
+
+.nav-link{
+    font-size: 1.2rem;;
+}
+
+.slogan{
+    color: #303334;
+    padding-top: 5%;
+    font-size: 5rem;
+}
+
+
+@media (max-width: 1199px){
+    .slogan{
+        font-size: 4rem;
+    }
+}
+
+@media (max-width: 991px){
+    .slogan{
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 767px){
+    .slogan{
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 575px){
+    .slogan{
+        font-size: 3rem;
+    }
+}
+
+.btn-outline-primary, .btn-primary{
+    border-radius: 40px;
+}
+
+.form-control{
+    border-radius: 40px;
+}
+
+/* .row .col-sm-6 h1{
+    
+    color: #303334;
+    font-size: 45px;
+    font-weight: 500;
+    
+} */
